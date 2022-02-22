@@ -69,9 +69,7 @@ h1,h2,h3,h4,h5,h6{
 .text-color{
     color: #706D59;
 }
-.align{
-	align-items:flex-start;
-}
+
 .col{
 	background-color:#005979 ;
 	padding: 20px 10px ;
@@ -87,7 +85,9 @@ h1,h2,h3,h4,h5,h6{
 	padding: 10px;
 	line-height:2vh;
 }
-
+.unorder li{
+	list-style-type: none;
+}
 /* header style */
 .header{
 	background-color:#F86338;
@@ -131,6 +131,10 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 38px;
 	font-weight: 400;
 	word-spacing: 8px;
+}
+dd{
+	margin-left: 40px;
+	margin-bottom: 32px;
 }
 /* footer */
 .footer{
